@@ -1,0 +1,199 @@
+.register-container {
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    /* width: 100vw; */
+    background: linear-gradient(93deg, #000 41.96%, #000 291.82%);
+}
+
+.line-container {
+    display: flex
+}
+
+.line {
+    background-color: #E7C58A;
+    /* Adjust the thickness and color as needed */
+    /* Adjust the height of the line as needed */
+    margin-right: 5px;
+    border-radius: 2px;
+    width: 60px;
+    height: 5px;
+    /* Adjust the margin as needed */
+}
+
+.line-white {
+    background: #D9D9D9;
+    /* Adjust the thickness and color as needed */
+    /* Adjust the height of the line as needed */
+    margin-right: 5px;
+    border-radius: 2px;
+    width: 60px;
+    height: 5px;
+    /* Adjust the margin as needed */
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    width: 50%;
+    /* overflow: hidden; */
+    /* Prevents the content from overflowing */
+}
+
+.first-container h3 {
+    display: flex;
+    color: #FFF;
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: normal;
+}
+
+
+
+.highlight-text {
+    margin-left: 10px;
+    white-space: nowrap;
+    /* Adjust the margin as needed */
+    color: #E7C58A;
+}
+
+.first-container h5 {
+    color: #EAEAEA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.second-container {
+    background-image: url("../assets/background.png");
+    width: 50%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+}
+
+.second-container-login {
+    background-image: url("../assets/bg-login.png");
+    width: 50%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+}
+
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 1rem 1rem 1rem 0;
+    /* top right bottom left */
+    gap: 0.5rem;
+    width: 300px;
+    height: 100%;
+
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1rem 1rem 1rem 0;
+    /* top right bottom left */
+    gap: 0.5rem;
+    width: 300px;
+    height: 100%;
+
+}
+
+
+
+
+.form-group {
+    margin-bottom: 15px;
+    /* Adjust the margin as needed */
+}
+
+.form-group label {
+    color: #E7C58A;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-group input {
+    background-color: black;
+    width: 40vw;
+    padding: 8px;
+    margin-top: 5px;
+    /* Adjust the margin as needed */
+    box-sizing: border-box;
+    color: white;
+    /* Styling for the input */
+    /* background-color: #f4f4f4; */
+    /* Adjust the background color as needed */
+    border: none;
+    border-bottom: 2px solid #E7C58A;
+    /* Adjust the border color and thickness as needed */
+    outline: none;
+    /* Remove default focus outline */
+}
+
+.form-group input::placeholder {
+    color: #BFBFBF;
+}
+
+.register-actions {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 0.5rem ; */
+    padding: 1rem 1rem 1rem 0;
+    /* top right bottom left */
+    /* padding-right: 4rem; */
+
+    width: 40vw;
+    /* height: 100%; */
+    /* overflow: hidden; */
+    /* Prevents the content from overflowing */
+}
+
+.register-button {
+    border-radius: 10px;
+    background: #E7C58A;
+    width: 130px;
+    height: 46px;
+    /* flex-shrink: 0; */
+}
+
+.login-prompt {
+    color: #F8F8F8;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.login-prompt a {
+    color: #E7C58A;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
